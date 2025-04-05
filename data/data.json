@@ -28,7 +28,7 @@
         "G09": 0.39,
         "G10": 0.91},
         "probabilitas_awal": 0.192,
-        "link": "/template/detailPenyakit/p1.html"
+        "link": "/template/detailPenyakit/p2.html"
       },
       "P03": {
         "nama": "Penyakit Layu Fusarium",
@@ -43,7 +43,7 @@
         "G09": 0.47,
         "G10": 0.73},
         "probabilitas_awal": 0.092,
-        "link": "/template/detailPenyakit/p1.html"
+        "link": "/template/detailPenyakit/p3.html"
       },
       "P04": {
         "nama": "Penyakit Layu Fusarium",
@@ -58,7 +58,7 @@
         "G09": 0.47,
         "G10": 0.73},
         "probabilitas_awal": 0.214,
-        "link": "/template/detailPenyakit/p1.html"
+        "link": "/template/detailPenyakit/p4.html"
       },
       "P05": {
         "nama": "Penyakit Layu Fusarium",
@@ -73,7 +73,7 @@
         "G09": 1.00,
         "G10": 0.19},
         "probabilitas_awal": 0.070,
-        "link": "/template/detailPenyakit/p1.html"
+        "link": "/template/detailPenyakit/p5.html"
       }
     },
     "gejala": {
