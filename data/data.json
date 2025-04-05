@@ -1,0 +1,92 @@
+{
+    "penyakit": {
+      "P01": {
+        "nama": "Penyakit Layu Fusarium",
+        "gejala": {"G01":0.56, 
+        "G02" : 0.63,
+        "G03" : 0.56,
+        "G04" : 0.69,
+        "G05" : 0.33,
+        "G06" : 0.71,
+        "G07" : 0.45,
+        "G08" : 0.47,
+        "G09": 0.58,
+        "G10": 0.30},
+        "probabilitas_awal": 0.432,
+        "link": "/template/detailPenyakit/p1.html"
+      },
+      "P02": {
+        "nama": "Penyakit Busukk Buah",
+        "gejala": {"G01" : 0.23, 
+        "G02" : 0.20,
+        "G03" : 0.66,
+        "G04" : 0.20,
+        "G05" : 0.32,
+        "G06" : 0.05,
+        "G07" : 0.20,
+        "G08" : 1.00,
+        "G09": 0.39,
+        "G10": 0.91},
+        "probabilitas_awal": 0.192,
+        "link": "/template/detailPenyakit/p1.html"
+      },
+      "P03": {
+        "nama": "Penyakit Layu Fusarium",
+        "gejala": {"G01" : 0.00, 
+        "G02" : 0.16,
+        "G03" : 0.08,
+        "G04" : 0.29,
+        "G05" : 0.84,
+        "G06" : 0.31,
+        "G07" : 0.92,
+        "G08" : 0.31,
+        "G09": 0.47,
+        "G10": 0.73},
+        "probabilitas_awal": 0.092,
+        "link": "/template/detailPenyakit/p1.html"
+      },
+      "P04": {
+        "nama": "Penyakit Layu Fusarium",
+        "gejala": {"G01" : 0.20, 
+        "G02" : 0.16,
+        "G03" : 0.08,
+        "G04" : 0.29,
+        "G05" : 0.84,
+        "G06" : 0.31,
+        "G07" : 0.92,
+        "G08" : 0.31,
+        "G09": 0.47,
+        "G10": 0.73},
+        "probabilitas_awal": 0.214,
+        "link": "/template/detailPenyakit/p1.html"
+      },
+      "P05": {
+        "nama": "Penyakit Layu Fusarium",
+        "gejala": {"G01" : 0.13, 
+        "G02" : 0.25,
+        "G03" : 0.19,
+        "G04" : 0.25,
+        "G05" : 0.81,
+        "G06" : 0.00,
+        "G07" : 0.00,
+        "G08" : 0.44,
+        "G09": 1.00,
+        "G10": 0.19},
+        "probabilitas_awal": 0.070,
+        "link": "/template/detailPenyakit/p1.html"
+      }
+    },
+    "gejala": {
+      "G01": "Tanaman tampak layu pada siang hari",
+      "G02": "Daun muda tampak mengering",
+      "G03": "Buah tampak menguning ",
+      "G04": "Daun mulai mengerut ",
+      "G05": "Tanaman kerdil ",
+      "G06": "Bercak kuning pada daun ",
+      "G07": "Batang tampak mengering ",
+      "G08": "Buah tampak mengering ",
+      "G09": "Retak pada daun ",
+      "G10": "Bercak putih seperti kapur pada daun"
+    }
+  }
+  
