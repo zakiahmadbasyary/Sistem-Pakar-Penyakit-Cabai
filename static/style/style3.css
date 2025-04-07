@@ -26,11 +26,6 @@ html {
   float: left;
 }
 
-.logo {
-  display: flex;
-  margin: 30px, 0px;
-  align-content: center;
-}
 
 .teks {
   font-size: medium;
@@ -117,4 +112,5 @@ a:hover{
     margin-left: 10px;
     margin-right: 10px;
   }
+
 }
