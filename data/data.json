@@ -16,7 +16,7 @@
         "link": "/template/detailPenyakit/p1.html"
       },
       "P02": {
-        "nama": "Penyakit Busukk Buah",
+        "nama": "Penyakit Busuk Buah",
         "gejala": {"G01" : 0.23, 
         "G02" : 0.20,
         "G03" : 0.66,
@@ -31,7 +31,7 @@
         "link": "/template/detailPenyakit/p2.html"
       },
       "P03": {
-        "nama": "Penyakit Layu Fusarium",
+        "nama": "Penyakit Virus Kuning",
         "gejala": {"G01" : 0.00, 
         "G02" : 0.16,
         "G03" : 0.08,
@@ -46,7 +46,7 @@
         "link": "/template/detailPenyakit/p3.html"
       },
       "P04": {
-        "nama": "Penyakit Layu Fusarium",
+        "nama": "Penyakit Layu Bakteri",
         "gejala": {"G01" : 0.20, 
         "G02" : 0.16,
         "G03" : 0.08,
@@ -61,7 +61,7 @@
         "link": "/template/detailPenyakit/p4.html"
       },
       "P05": {
-        "nama": "Penyakit Layu Fusarium",
+        "nama": "Penyakit Rebah Semai",
         "gejala": {"G01" : 0.13, 
         "G02" : 0.25,
         "G03" : 0.19,
