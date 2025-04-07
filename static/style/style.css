@@ -158,6 +158,10 @@ a:hover{
     color: #eb0d0d;
     border: 0px;
 }
+.metode{
+  width: 400px; 
+  height:400px;
+}
 
 @media screen and (max-width: 600px) {
   .card-deck {
@@ -167,11 +171,19 @@ a:hover{
   .card {
     margin-bottom: 20px;
   }
+  .metode {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .btn-primary,
   .btn-secondary,
+  .metode {
+    width: 200px;
+    height: 200px;
+  }
   .card {
     margin-top: 10px;
     margin-left: 0 !important;
