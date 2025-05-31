@@ -1,92 +1,142 @@
 {
-    "penyakit": {
-      "P01": {
-        "nama": "Penyakit Layu Fusarium",
-        "gejala": {"G01":0.56, 
-        "G02" : 0.63,
-        "G03" : 0.56,
-        "G04" : 0.69,
-        "G05" : 0.33,
-        "G06" : 0.71,
-        "G07" : 0.45,
-        "G08" : 0.47,
-        "G09": 0.58,
-        "G10": 0.30},
-        "probabilitas_awal": 0.432,
-        "link": "/template/detailPenyakit/p1.html"
+  "penyakit": {
+    "P01": {
+      "nama": "Penyakit Layu Fusarium",
+      "gejala": {
+        "G03": 0.56,
+        "G10": 0.30,
+        "G06": 0.71,
+        "G05": 0.33,
+        "G01": 0.56,
+        "G02": 0.63,
+        "G04": 0.69,
+        "G07": 0.45,
+        "G08": 0.47,
+        "G09": 0.58
       },
-      "P02": {
-        "nama": "Penyakit Busuk Buah",
-        "gejala": {"G01" : 0.23, 
-        "G02" : 0.20,
-        "G03" : 0.66,
-        "G04" : 0.20,
-        "G05" : 0.32,
-        "G06" : 0.05,
-        "G07" : 0.20,
-        "G08" : 1.00,
-        "G09": 0.39,
-        "G10": 0.91},
-        "probabilitas_awal": 0.192,
-        "link": "/template/detailPenyakit/p2.html"
-      },
-      "P03": {
-        "nama": "Penyakit Virus Kuning",
-        "gejala": {"G01" : 0.00, 
-        "G02" : 0.16,
-        "G03" : 0.08,
-        "G04" : 0.29,
-        "G05" : 0.84,
-        "G06" : 0.31,
-        "G07" : 0.92,
-        "G08" : 0.31,
-        "G09": 0.47,
-        "G10": 0.73},
-        "probabilitas_awal": 0.092,
-        "link": "/template/detailPenyakit/p3.html"
-      },
-      "P04": {
-        "nama": "Penyakit Layu Bakteri",
-        "gejala": {"G01" : 0.20, 
-        "G02" : 0.16,
-        "G03" : 0.08,
-        "G04" : 0.29,
-        "G05" : 0.84,
-        "G06" : 0.31,
-        "G07" : 0.92,
-        "G08" : 0.31,
-        "G09": 0.47,
-        "G10": 0.73},
-        "probabilitas_awal": 0.214,
-        "link": "/template/detailPenyakit/p4.html"
-      },
-      "P05": {
-        "nama": "Penyakit Rebah Semai",
-        "gejala": {"G01" : 0.13, 
-        "G02" : 0.25,
-        "G03" : 0.19,
-        "G04" : 0.25,
-        "G05" : 0.81,
-        "G06" : 0.00,
-        "G07" : 0.00,
-        "G08" : 0.44,
-        "G09": 1.00,
-        "G10": 0.19},
-        "probabilitas_awal": 0.070,
-        "link": "/template/detailPenyakit/p5.html"
-      }
+      "probabilitas_awal": 0.432,
+      "link": "/template/detailPenyakit/p1.html"
     },
-    "gejala": {
-      "G01": "Tanaman tampak layu pada siang hari",
-      "G02": "Daun muda tampak mengering",
-      "G03": "Buah tampak menguning ",
-      "G04": "Daun mulai mengerut ",
-      "G05": "Tanaman kerdil ",
-      "G06": "Bercak kuning pada daun ",
-      "G07": "Batang tampak mengering ",
-      "G08": "Buah tampak mengering ",
-      "G09": "Retak pada daun ",
-      "G10": "Bercak putih seperti kapur pada daun"
+    "P02": {
+      "nama": "Penyakit Busuk Buah",
+      "gejala": {
+        "G03": 0.66,
+        "G10": 0.91,
+        "G06": 0.05,
+        "G05": 0.32,
+        "G01": 0.23,
+        "G02": 0.20,
+        "G04": 0.20,
+        "G07": 0.20,
+        "G08": 1.00,
+        "G09": 0.39
+      },
+      "probabilitas_awal": 0.192,
+      "link": "/template/detailPenyakit/p2.html"
+    },
+    "P03": {
+      "nama": "Penyakit Virus Kuning",
+      "gejala": {
+        "G03": 0.08,
+        "G10": 0.73,
+        "G06": 0.31,
+        "G05": 0.84,
+        "G01": 0.00,
+        "G02": 0.16,
+        "G04": 0.29,
+        "G07": 0.92,
+        "G08": 0.31,
+        "G09": 0.47
+      },
+      "probabilitas_awal": 0.092,
+      "link": "/template/detailPenyakit/p3.html"
+    },
+    "P04": {
+      "nama": "Penyakit Layu Bakteri",
+      "gejala": {
+        "G03": 0.08,
+        "G10": 0.73,
+        "G06": 0.31,
+        "G05": 0.84,
+        "G01": 0.20,
+        "G02": 0.16,
+        "G04": 0.29,
+        "G07": 0.92,
+        "G08": 0.31,
+        "G09": 0.47
+      },
+      "probabilitas_awal": 0.214,
+      "link": "/template/detailPenyakit/p4.html"
+    },
+    "P05": {
+      "nama": "Penyakit Rebah Semai",
+      "gejala": {
+        "G03": 0.19,
+        "G10": 0.19,
+        "G06": 0.00,
+        "G05": 0.81,
+        "G01": 0.13,
+        "G02": 0.25,
+        "G04": 0.25,
+        "G07": 0.00,
+        "G08": 0.44,
+        "G09": 1.00
+      },
+      "probabilitas_awal": 0.070,
+      "link": "/template/detailPenyakit/p5.html"
     }
+  },
+  "gejala": {
+  "G03": {
+    "teks": "Buah tampak menguning",
+    "keterangan": "Buah yang menguning sebelum matang bisa jadi gejala infeksi patogen atau stress tanaman.",
+    "gambar": "../static/images/fotoGejala/G3.jpeg"
+  },
+  "G10": {
+    "teks": "Bercak putih seperti kapur pada daun",
+    "keterangan": "Tanda klasik dari infeksi cendawan (jamur tepung), biasanya menyerang di musim lembap.",
+    "gambar": "../static/images/fotoGejala/G10.jpeg"
+  },
+  "G06": {
+    "teks": "Bercak kuning pada daun",
+    "keterangan": "Bercak kuning menyebar di permukaan daun bisa menandakan serangan jamur atau bakteri.",
+    "gambar": "../static/images/fotoGejala/G6.jpeg"
+  },
+  "G05": {
+    "teks": "Tanaman kerdil",
+    "keterangan": "Pertumbuhan tanaman terhambat, ukuran batang dan daun lebih kecil dari normal. Biasanya disebabkan oleh virus atau kualitas tanah buruk.",
+    "gambar": "../static/images/fotoGejala/G5.jpeg"
+  },
+  "G01": {
+    "teks": "Tanaman tampak layu pada siang hari",
+    "keterangan": "Tanaman terlihat segar di pagi hari namun menjadi layu saat siang, lalu kembali segar di sore hari. Ini menandakan masalah pada sistem akar atau serangan jamur.",
+    "gambar": "../static/images/fotoGejala/G1.jpeg"
+  },
+  "G02": {
+    "teks": "Daun muda tampak mengering",
+    "keterangan": "Pengeringan biasanya dimulai dari ujung daun, mengindikasikan kekurangan air, unsur hara, atau infeksi fusarium.",
+    "gambar": "../static/images/fotoGejala/G2.jpeg"
+  },
+  "G04": {
+    "teks": "Daun mulai mengerut",
+    "keterangan": "Daun yang keriput dan mengecil dapat disebabkan oleh virus atau kekurangan air secara kronis.",
+    "gambar": "../static/images/fotoGejala/G4.jpeg"
+  },
+  "G07": {
+    "teks": "Batang tampak mengering",
+    "keterangan": "Batang menjadi cokelat dan kaku, menandakan infeksi sistemik seperti fusarium atau bakteri layu.",
+    "gambar": "../static/images/fotoGejala/G7.jpeg"
+  },
+  "G08": {
+    "teks": "Buah tampak mengering",
+    "keterangan": "Buah mengering sebelum matang atau setelah terkena bercak penyakit, sering disebabkan oleh jamur atau virus.",
+    "gambar": "../static/images/fotoGejala/G8.jpeg"
+  },
+  "G09": {
+    "teks": "Retak pada daun",
+    "keterangan": "Retakan atau sobekan pada daun bisa muncul akibat kekeringan, infeksi, atau defisiensi unsur tertentu.",
+    "gambar": "../static/images/fotoGejala/G9.jpeg"
   }
-  
+}
+
+}
