@@ -1,99 +1,34 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pertanyaan Bertahap</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      height: 100vh;
-      justify-content: center;
-      align-items: center;
-      background-color: #f0f0f0;
-    }
+    <meta charset="UTF-8">
+    <title>Kalkulator Finansial - Soko Financial</title>
+    <style>
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
+        }
 
-    .card {
-      background: white;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      width: 100%;
-      max-width: 400px;
-    }
+        .iframe-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
 
-    input[type="text"] {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      font-size: 16px;
-    }
-
-    button {
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #4caf50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    .result {
-      margin-top: 20px;
-      font-weight: bold;
-      color: #333;
-    }
-  </style>
+        h1 {
+            text-align: center;
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 <body>
-  <div class="card">
-    <div id="question-container">
-      <p id="question">Siapa nama kamu?</p>
-      <input type="text" id="answer" placeholder="Jawabanmu di sini..." />
-      <button onclick="nextQuestion()">Lanjut</button>
+    <div class="iframe-container">
+        <h1>Kalkulator Finansial</h1>
+        <iframe 
+            src="https://aryadivafrahim.pythonanywhere.com/" 
+            allowfullscreen
+        ></iframe>
     </div>
-    <div id="result" class="result" style="display: none;"></div>
-  </div>
-
-  <script>
-    const questions = [
-      "Siapa nama kamu?",
-      "Berapa umur kamu?",
-      "Apa hobi kamu?",
-      "Apa makanan favorit kamu?"
-    ];
-
-    const answers = [];
-    let currentQuestion = 0;
-
-    function nextQuestion() {
-      const input = document.getElementById("answer");
-      const answer = input.value.trim();
-      if (answer === "") return;
-
-      answers.push(answer);
-      input.value = "";
-      currentQuestion++;
-
-      if (currentQuestion < questions.length) {
-        document.getElementById("question").textContent = questions[currentQuestion];
-      } else {
-        document.getElementById("question-container").style.display = "none";
-        document.getElementById("result").style.display = "block";
-        document.getElementById("result").innerHTML = `
-          <p>Terima kasih! Ini jawaban kamu:</p>
-          <ul>
-            <li><strong>Nama:</strong> ${answers[0]}</li>
-            <li><strong>Umur:</strong> ${answers[1]}</li>
-            <li><strong>Hobi:</strong> ${answers[2]}</li>
-            <li><strong>Makanan favorit:</strong> ${answers[3]}</li>
-          </ul>
-        `;
-      }
-    }
-  </script>
 </body>
 </html>
